@@ -273,6 +273,13 @@ img {
     display: inline;
     padding-left: 10px;
 }
+.home ul button{
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--logo);
+    border: 0;
+    cursor: pointer;
+
+}
 
 .home p {
     color: var(--text-white);

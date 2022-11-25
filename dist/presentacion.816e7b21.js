@@ -7,7 +7,7 @@ var i = 0;
 function cambiarImagen() {
     if (i == 3) i = 0;
     else i++;
-    document.changeImagen.src = img[i];
+    document.getElementById("changeImagen").src = img[i];
     setTimeout("cambiarImagen()", 3000);
 }
 
